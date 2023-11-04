@@ -19,6 +19,11 @@
 
     }
 
+    .aside {
+        width: 40vw;
+
+    }
+
     .kyle h1 {
         font-size: 10px;
         text-align: center;
@@ -36,7 +41,7 @@
         border: 1px solid black;
         background-color: antiquewhite;
         color: #0e146b;
-        font-size: x-small;
+        font-size: xx-small;
         display: flex;
         flex-direction: column;
         align-items: start;
@@ -81,7 +86,8 @@
         width: 30vw;
         display: flex;
     }
-    .mos{
+
+    .mos {
         border: 1px solid black;
         width: 30vw;
         background-color: aqua;
@@ -89,13 +95,15 @@
         color: tomato;
         font-weight: bold;
         display: flex;
-       
+
     }
-    .obed{
+
+    .obed {
         font-size: xx-small;
         color: #0e146b;
     }
-    .foot{
+
+    .foot {
         font-size: xx-small;
         display: flex;
         align-items: center;
@@ -103,7 +111,7 @@
         width: 90vw;
 
     }
-    
+
 
 
 }
@@ -112,20 +120,52 @@
 
 
 @media screen and (max-width:450px) {
-    .about{
+    .about {
+        display: flex;
+        flex-direction: column;
         font-size: xx-small;
         font-weight: bolder;
+        text-align: center;
+        width: 40%;
+
     }
-    .story{
+
+    .mobile {
+        flex-direction: column;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aside {
+        display: flex;
+        width: 80vw;
+        /* border: 1px solid white; */
+        /* background-color: black; */
+    }
+
+
+    .story {
         font-size: xx-small;
     }
-    .ifynaco{
+
+    .ifynaco {
         font-size: xx-small;
     }
-    .ggg{
+
+    .ggg {
         font-size: xx-small;
     }
-    .mos{
+
+    .mos {
         overflow-y: scroll;
         display: flex;
         flex-direction: column;
@@ -137,7 +177,9 @@
         width: 45vw;
         background-color: black;
     }
-    .imoge img{
+
+    .imoge img {
         width: 20vw;
+
     }
 }
