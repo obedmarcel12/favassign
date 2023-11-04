@@ -154,7 +154,20 @@
 
 
     .story {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         font-size: xx-small;
+        margin-right: 30%;
+
+    }
+
+    .mad {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        text-align: center;
     }
 
     .ifynaco {
