@@ -48,6 +48,7 @@
         font-weight: bolder;
         text-align: center;
         justify-content: center;
+
     }
 
 
@@ -158,7 +159,8 @@
         align-items: center;
         justify-content: center;
         font-size: xx-small;
-        margin-right: 30%;
+        margin-right: 0%;
+        width: 50%;
 
     }
 
@@ -192,7 +194,13 @@
     }
 
     .imoge img {
-        width: 20vw;
+        width: 50%;
 
+    }
+
+    .rod {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
